@@ -18,7 +18,8 @@
     "@strapi/plugin-users-permissions": "4.5.4",
     "@strapi/strapi": "4.5.4",
     "better-sqlite3": "7.4.6",
-    "strapi-plugin-slugify": "^2.3.2"
+    "strapi-plugin-slugify": "^2.3.2",
+    "stripe": "^11.6.0"
   },
   "author": {
     "name": "TEAM_JEJ"

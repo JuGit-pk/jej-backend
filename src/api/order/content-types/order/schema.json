@@ -12,30 +12,17 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "total_amount": {
-      "type": "decimal",
-      "required": true
-    },
-    "status": {
-      "type": "enumeration",
-      "enum": [
-        "paid",
-        "unpaid"
-      ],
-      "required": true,
-      "default": "unpaid"
-    },
-    "product": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::product.product",
-      "inversedBy": "orders"
+    "products": {
+      "type": "json"
     },
     "user": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "orders"
+    },
+    "stripe_id": {
+      "type": "text"
     }
   }
 }

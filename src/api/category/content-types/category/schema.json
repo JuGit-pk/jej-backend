@@ -26,6 +26,14 @@
       "type": "uid",
       "required": true,
       "targetField": "name"
+    },
+    "thumbnail": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }

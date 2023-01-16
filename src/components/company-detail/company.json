@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_company_detail_companies",
+  "info": {
+    "displayName": "company",
+    "icon": "building"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    }
+  }
+}

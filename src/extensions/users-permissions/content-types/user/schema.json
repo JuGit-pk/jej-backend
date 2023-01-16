@@ -68,6 +68,11 @@
       "relation": "oneToMany",
       "target": "api::order.order",
       "mappedBy": "user"
+    },
+    "shipping_address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "address.address"
     }
   }
 }

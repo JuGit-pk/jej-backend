@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_settings",
+  "info": {
+    "singularName": "global-setting",
+    "pluralName": "global-settings",
+    "displayName": "Global-Setting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contact": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

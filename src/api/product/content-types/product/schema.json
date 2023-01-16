@@ -51,11 +51,10 @@
       "targetField": "title",
       "required": true
     },
-    "orders": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::order.order",
-      "mappedBy": "product"
+    "ratings": {
+      "type": "integer",
+      "max": 10,
+      "min": 1
     }
   }
 }

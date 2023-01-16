@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_address_addresses",
+  "info": {
+    "displayName": "address",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "plot_no": {
+      "type": "string"
+    },
+    "zip_code": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    }
+  }
+}
